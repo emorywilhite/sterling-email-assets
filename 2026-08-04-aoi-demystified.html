@@ -11,7 +11,20 @@
   Send: 2026-08-04 (first Tuesday)  |  Lead: AoI demystified (Bob Madeiros)  |  Built from template-monthly.html
   Paste into ZOHO's campaign fields:
     SL: The door that closes this month
-    PT: The Application of Intent, demystified. Plus 38 days to the examiner deadline.
+    PT: What the Application of Intent actually is. Plus 38 days to the examiner deadline.
+  2026-07-30: THEME band added above the lead at Emory's request (ink #0d1926, gold kicker, no
+  link, no button) — a president's note that names the month's theme, per the August brief
+  ("Raise Your Hand"). Signed Dione Geiger; Bob still signs the lead below, so the issue reads
+  president's note -> feature. Label + the lead section's name ("THIS WEEK") both being workshopped
+  2026-07-30. Dione should OK the first-person register at review (same flag as the 2026-07-28 send).
+  If the band stays, propagate to template-monthly.html + README anatomy + the sterling-newsletter
+  skill, and rebuild the Zoho draft (the v5 draft still holds pre-band content).
+  2026-07-30 PLAIN-LANGUAGE PASS (Emory: "a 3rd grader could understand everything in this email"):
+  every section rewritten to drop abstractions and figures of speech. Cut "circle the same
+  suspicion," "hands you back language," "the distance between the two is yours," "this month has
+  a habit of ending," "Declarations are contagious," "Neither one opens from my side," and
+  "demystified" in the PT. "About four weeks from today" = Aug 4 send to Aug 31 (27 days).
+  No date, number, or URL changed in this pass. Filename keeps the -demystified slug.
   DECISIONS (Emory, 2026-07-24): CTA -> assessments overview page (no AoI page exists on
   the live site); AoI calendar row reads "August," no day (no dated source); podcast brief
   DROPPED (guest unconfirmed per the August brief's ops list; the Aug 11 weekly owns the
@@ -42,11 +55,16 @@
   @media only screen and (max-width: 620px) {
     .card { padding: 32px 24px !important; }
     .digest { padding: 26px 24px !important; }
+    .theme { padding: 26px 24px !important; }
     .date-col { padding-right: 12px !important; }
+    /* Body copy steps 16 -> 18 on phones (Emory, 2026-07-30). .copy tags only the
+       16px reading elements, so the 12px kickers and 13px small text are untouched.
+       !important is required: inline styles otherwise win over the style block. */
+    .copy { font-size: 18px !important; }
   }
 </style>
 <div style="display:none; max-height:0; overflow:hidden; mso-hide:all;">
-  The Application of Intent, demystified. Plus 38 days to the examiner deadline. ‌ ‌ ‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+  What the Application of Intent actually is. Plus 38 days to the examiner deadline. ‌ ‌ ‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
 </div>
 <table width="100%" style="background-color:#f2f5f8;" role="presentation" cellspacing="0" cellpadding="0" border="0" align="center">
   <tbody><tr>
@@ -55,47 +73,76 @@
 
         <!-- MASTHEAD -->
         <tbody><tr>
-          <td style="padding:10px 0 24px; text-align:center;" align="center">
+          <td style="padding:10px 0 20px; text-align:center;" align="center">
             <a target="_blank" rel="noopener noreferrer" href="https://thesterlingcouncil.org/">
               <img src="https://stratus.campaign-image.com/images/1552517000002193003_zc_v1_1784219096700_sterling_logo2x.png" width="240" alt="The Sterling Council" style="display:inline-block; width:240px; max-width:100%; height:auto; border:0;"></a>
           </td>
         </tr>
 
-        <!-- ============ THIS WEEK (lead — blue) ============ -->
+        <!-- ============ MONTH'S THEME (ink band — issue identity, no link, no button) ============
+             Added 2026-07-30 at Emory's request. Theme label from ../2026-Sterling-Council/2026-08-august.md
+             ("Raise Your Hand"). Deliberately NOT a white content card: it reads as masthead furniture
+             above the four permanent sections, and carries no CTA so the lead keeps the issue's one button. -->
+        <tr>
+          <td class="theme" style="background-color:#0d1926; border-radius:10px; padding:30px 48px; text-align:left;" align="left">
+            <p style="margin:0 0 10px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:1.4; letter-spacing:2px; font-weight:600; color:#d3b100; text-transform:uppercase; text-align:left;">
+              AUGUST 2026</p>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin:0 0 16px;">
+              <tbody><tr><td width="40" height="3" style="width:40px; height:3px; background-color:#d3b100; font-size:0; line-height:0;">&nbsp;</td></tr></tbody></table>
+
+            <h2 style="margin:0 0 14px; font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-size:20px; line-height:1.25; font-weight:normal; color:#ffffff;">
+              Leaders raise their hands</h2>
+            <p class="copy" style="margin:0 0 14px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#c3d0dc; text-align:left;">
+              Something I have noticed in this work: the organizations that keep getting better are the ones that ask an outsider to take a hard look at them. They do not wait to be told how they are doing. They ask.
+            </p>
+            <p class="copy" style="margin:0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#c3d0dc; text-align:left;">
+              August gives you two ways to ask, and both of them are below. Neither one happens unless you start it.
+            </p>
+            <p class="copy" style="margin:20px 0 0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.5; color:#e8eef4; text-align:left;">
+              Dione Geiger<br>
+              <span style="font-size:13px; color:#8fa3b5;">President, The Sterling Council</span>
+            </p>
+          </td>
+        </tr>
+
+        <!-- SPACER -->
+        <tr><td height="16" style="height:16px; font-size:0; line-height:0;">&nbsp;</td></tr>
+
+        <!-- ============ THE BLIND SPOT (lead — blue; renamed from THIS WEEK 2026-07-30) ============ -->
         <tr>
           <td class="card" style="background-color:#ffffff; border-radius:10px; padding:44px 48px; text-align:left;" align="left">
 
             <p style="margin:0 0 10px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:1.4; letter-spacing:2px; font-weight:600; color:#1768a5; text-transform:uppercase; text-align:left;">
-              THIS WEEK</p>
+              THE BLIND SPOT</p>
             <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin:0 0 20px;">
               <tbody><tr><td width="40" height="3" style="width:40px; height:3px; background-color:#1768a5; font-size:0; line-height:0;">&nbsp;</td></tr></tbody></table>
 
             <h1 style="margin:0 0 24px; font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-size:28px; line-height:1.25; font-weight:normal; color:#0d1926;">
-              The most misunderstood step in the 2027 cycle</h1>
+              The most misunderstood step in the 2027&nbsp;cycle</h1>
 
-            <p style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;" align="left">
-              I have spent enough hours across from leaders on Visionary Voices to notice a pattern. The honest ones all circle the same suspicion: something in the organization is off, and nobody inside it can quite name it.
+            <p class="copy" style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;" align="left">
+              I have sat across from a lot of leaders on Visionary Voices, and the honest ones almost all say a version of the same thing. Something in the organization is not working, and nobody inside it can say exactly what.
             </p>
-            <p style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
-              The improvement efforts are real. The retreats happen, the consultants come and go, the initiatives stack up. And the suspicion stays. You don&rsquo;t need another initiative. You need a system.
+            <p class="copy" style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+              These are not leaders sitting still. The retreats happen. The consultants come and go. The new plans pile up. And the feeling stays. You don&rsquo;t need another plan. You need a system.
             </p>
-            <p style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
-              Naming what is off is exactly what the Sterling Assessment was built to do. It measures an organization against the Framework for Performance Excellence, all seven categories, Leadership through Results, and hands you back language for the thing you could not name.
+            <p class="copy" style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+              The Sterling Assessment is that system. It compares your organization to the Framework for Performance Excellence, all seven areas, from Leadership to Results, and tells you in plain terms what is working and what is not.
             </p>
-            <p style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
-              But before any of that, there is a first step so small that leaders keep misreading it. It is called the <b>Application of Intent</b>, and it is due this month.
+            <p class="copy" style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+              But before any of that comes a first step so small that leaders keep getting it wrong. It is called the <b>Application of Intent</b>, and it is due this month.
             </p>
-            <p style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
-              Here is what it is. A declaration. You are telling Sterling that your organization intends to explore the 2027 cycle. That is the whole step.
+            <p class="copy" style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+              Here is what it is. You tell Sterling that your organization wants to look into the 2027 cycle. That is the whole step.
             </p>
-            <p style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
-              Here is what it is not. It is not the application. It is not a submission of evidence. It does not obligate you to go further. The full application is not due until November, and the distance between the two is yours.
+            <p class="copy" style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+              Here is what it is not. It is not the full application. You do not send proof of anything. You are not signing up for the whole cycle. The full application is not due until November, and what you do between now and then is up to you.
             </p>
-            <p style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
-              I have watched a lot of leaders wait for the year when they will feel ready. The ones who grow fastest do it in the other order. They raise their hand first and get ready second.
+            <p class="copy" style="margin:0 0 18px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+              I have watched a lot of leaders wait for the year they finally feel ready. The ones who grow fastest do it the other way around. They raise their hand first and get ready after.
             </p>
-            <p style="margin:0 0 28px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
-              The door for declaring is open through August. That is this month, and this month has a habit of ending.
+            <p class="copy" style="margin:0 0 28px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+              The door is open through the end of August. That is about four weeks from today.
             </p>
 
             <!-- CTA BUTTON — the issue's ONE button -->
@@ -106,17 +153,17 @@
                 </td>
               </tr>
             </tbody></table>
-            <p style="margin:0 0 32px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#616a74; text-align:center;" align="center">
+            <p style="margin:0 0 32px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; line-height:1.6; color:#616a74; text-align:center;" align="center">
               The Application of Intent is due this month. The full application is not due until November.
             </p>
 
-            <p style="margin:0 0 28px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+            <p class="copy" style="margin:0 0 28px; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
               Bob Madeiros<br>
               Co-Host, Visionary Voices<br>
               The Sterling Council
             </p>
-            <p style="margin:0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.6; color:#616a74; font-style:italic; text-align:left;">
-              P.S. If a different organization came to mind while you read this, forward this email to the leader who runs it. Declarations are contagious.
+            <p class="copy" style="margin:0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+              P.S. If another organization came to mind while you were reading, forward this to the leader who runs it. One raised hand makes the next one easier.
             </p>
           </td>
         </tr>
@@ -135,20 +182,20 @@
             <table width="100%" role="presentation" cellspacing="0" cellpadding="0" border="0">
               <tbody><tr>
                 <td style="padding:18px 0; border-bottom:1px solid #dee2e5; text-align:left;" align="left">
-                  <p style="margin:0 0 6px; font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-size:19px; line-height:1.35; color:#0d1926; text-align:left;">
+                  <p style="margin:0 0 6px; font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-size:20px; line-height:1.35; color:#0d1926; text-align:left;">
                     38 days to raise your hand</p>
-                  <p style="margin:0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.6; color:#1a2a3c; text-align:left;">
-                    Applications to serve as a 2027 Sterling Examiner close September 11. One assessment cycle spent inside another organization&rsquo;s systems changes how you read your own.
+                  <p class="copy" style="margin:0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+                    Applications to serve as a 2027 Sterling Examiner close September 11. Spend one cycle studying how another organization works, and you will not look at your own the same way again.
                     <a target="_blank" style="color:#1768a5; text-decoration:underline;" rel="noopener noreferrer" href="https://thesterlingcouncil.org/training-education/examiner-leadership-development/">Apply to the Board of Examiners</a>
                   </p>
                 </td>
               </tr>
               <tr>
                 <td style="padding:18px 0 4px; text-align:left;" align="left">
-                  <p style="margin:0 0 6px; font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-size:19px; line-height:1.35; color:#0d1926; text-align:left;">
+                  <p style="margin:0 0 6px; font-family:'Newsreader', Georgia, 'Times New Roman', serif; font-size:20px; line-height:1.35; color:#0d1926; text-align:left;">
                     Tomorrow at noon: Influence and Communication</p>
-                  <p style="margin:0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.6; color:#1a2a3c; text-align:left;">
-                    Nichole Solomon leads session three of the Summer Learning Series tomorrow at noon Eastern. The series runs Wednesdays through August 26, free, and one registration covers everything that remains.
+                  <p class="copy" style="margin:0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+                    Nichole Solomon leads session three of the Summer Learning Series tomorrow at noon Eastern. The series runs Wednesdays through August 26 and it is free. Sign up once and you are in for every session that is left.
                     <a target="_blank" style="color:#1768a5; text-decoration:underline;" rel="noopener noreferrer" href="https://us06web.zoom.us/meeting/register/vjF4RVKsTXaIWoX2MKcxyA#/registration">Reserve your seat</a>
                   </p>
                 </td>
@@ -170,43 +217,43 @@
 
             <table width="100%" role="presentation" cellspacing="0" cellpadding="0" border="0">
               <tbody><tr>
-                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">Tomorrow</td>
-                <td valign="top" style="padding:13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
+                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">Tomorrow</td>
+                <td class="copy" valign="top" style="padding:13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
                   Influence and Communication<br>
                   <span style="font-size:13px; color:#616a74;">Nichole Solomon, Summer Learning Series, noon ET</span>
                 </td>
               </tr>
               <tr>
-                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">Aug 12</td>
-                <td valign="top" style="padding:13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
+                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">Aug 12</td>
+                <td class="copy" valign="top" style="padding:13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
                   Change Management and Adaptability<br>
                   <span style="font-size:13px; color:#616a74;">Alaa El-Hawagy, Summer Learning Series, noon ET</span>
                 </td>
               </tr>
               <tr>
-                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">Aug 19</td>
-                <td valign="top" style="padding:13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
+                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">Aug 19</td>
+                <td class="copy" valign="top" style="padding:13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
                   Accountability and Crucial Conversations<br>
                   <span style="font-size:13px; color:#616a74;">Monique Akanbi, Summer Learning Series, noon ET</span>
                 </td>
               </tr>
               <tr>
-                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">Aug 26</td>
-                <td valign="top" style="padding:13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
+                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">Aug 26</td>
+                <td class="copy" valign="top" style="padding:13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
                   Wrap-Up and What&rsquo;s Next<br>
                   <span style="font-size:13px; color:#616a74;">Roland Martinez and Laura McNeil, Summer Learning Series, noon ET</span>
                 </td>
               </tr>
               <tr>
-                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">August</td>
-                <td valign="top" style="padding:13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
+                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">August</td>
+                <td class="copy" valign="top" style="padding:13px 0; border-bottom:1px solid #dee2e5; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
                   Application of Intent due<br>
                   <span style="font-size:13px; color:#616a74;">2027 Assessment Cycle</span>
                 </td>
               </tr>
               <tr>
-                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">Sep 11</td>
-                <td valign="top" style="padding:13px 0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
+                <td class="date-col" width="100" valign="top" style="padding:13px 16px 13px 0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; font-weight:600; color:#1768a5; white-space:nowrap; text-align:left;" align="left">Sep 11</td>
+                <td class="copy" valign="top" style="padding:13px 0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.55; color:#1a2a3c; text-align:left;" align="left">
                   Examiner applications close<br>
                   <span style="font-size:13px; color:#616a74;">Board of Examiners</span>
                 </td>
@@ -225,8 +272,8 @@
               WORTH STUDYING</p>
             <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin:0 0 14px;">
               <tbody><tr><td width="40" height="3" style="width:40px; height:3px; background-color:#d3b100; font-size:0; line-height:0;">&nbsp;</td></tr></tbody></table>
-            <p style="margin:0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.6; color:#1a2a3c; text-align:left;">
-              What actually happens to your leadership after a season spent evaluating someone else&rsquo;s organization:
+            <p class="copy" style="margin:0; font-family:'Hanken Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:1.6; color:#1a2a3c; text-align:left;">
+              What serving as an examiner does to the way you lead:
               <a target="_blank" style="color:#1768a5; text-decoration:underline;" rel="noopener noreferrer" href="https://thesterlingcouncil.org/blog/becoming-a-sterling-examiner-is-a-game-changer-for-your-leadership-journey/">Becoming a Sterling Examiner Is a Game-Changer for Your Leadership Journey</a>
             </p>
           </td>
